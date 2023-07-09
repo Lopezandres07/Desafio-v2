@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coreano Inmuebles</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+
+    <nav>
+        <section>
+            <div>
+                <p>Cantidad de cuartos:</p>
+                <input
+                name="rooms"
+                type="number">
+            </div>
+            <div>
+                <span>Metros cuadrados </span>
+                <div class="textSize">
+                    <div>
+                        <p>desde: </p>
+                        <input
+                        name="minM"
+                        type="number">
+                    </div>
+                    <div>
+                        <p> hasta:</p>
+                        <input
+                        name="maxM"
+                        type="number">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button>Buscar</button>
+    </nav>
+    
+    <section>
+        <h4>Encontrados: <span id="result"></span></h4>        
+        <article id="propiedad" class="content"></article>
+    </section>
+        
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
